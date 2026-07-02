@@ -1,0 +1,13 @@
+# 再生成可能なデータ・出力は git 管理せず、GitHub Release で配布する
+data/
+output/
+
+# OS / editor / Python
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.venv/
+
+# Release 配布用 zip（アップロード後は不要）
+dist/

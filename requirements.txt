@@ -1,0 +1,20 @@
+requests>=2.31
+pandas>=2.0
+pyarrow>=14.0
+numpy>=1.24
+matplotlib>=3.7
+scikit-learn>=1.3
+scipy>=1.10
+powerlaw>=1.5          # 01: 被引用の裾分布フィット (Clauset et al. 2009)
+networkx>=3.0          # 03/05: ネットワーク
+openai>=1.40           # 01/02/03: 埋め込み・GPT要約（任意, OPENAI_API_KEY が必要）
+gender-guesser>=0.4    # 04: 名前ベースのジェンダー推定
+
+# 俯瞰地図(03): 次元削減とLeidenコミュニティ検出
+umap-learn>=0.5
+igraph>=0.11
+leidenalg>=0.10
+
+# Disruption Index(05): 雑誌名の略記
+iso4>=0.1
+nltk>=3.8
